@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+body {
+  background-color: #343a40 !important;
+  color: #fff !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: #212529 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.counter {
+  background-color: #444 !important;
+  color: #fff !important;
+  margin-bottom: 10px !important;
+  padding: 10px !important;
 }
 
-.App-link {
-  color: #61dafb;
+.counter .badge {
+  background-color: #ffc107 !important;
+  color: #fff !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-primary {
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9 !important;
+  border-color: #0062cc !important;
+}
+
+.btn-danger {
+  background-color: #dc3545 !important;
+  border-color: #dc3545 !important;
+}
+
+.btn-danger:hover {
+  background-color: #c82333 !important;
+  border-color: #bd2130 !important;
+}
+
+.fa {
+  color: #fff !important;
+}
+
+.form-control {
+  background-color: #444 !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.form-control:focus {
+  background-color: #fff !important;
+  color: #495057 !important;
+}
+
+.input-group-append button {
+  background-color: #007bff !important;
+  color: #fff !important;
+}
+
+.input-group-append button:hover {
+  background-color: #0069d9 !important;
+  color: #fff !important;
+}
+
+.input-group-append button:focus {
+  background-color: #0062cc !important;
+  color: #fff !important;
+}
+
+.btn-rounded {
+  border-radius: 50px !important;
+}
+
+.counters {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
